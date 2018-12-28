@@ -1,0 +1,20 @@
+[
+    {
+      "petName": "Spot",
+      "petOwner": "Juan Perez",
+      "aptDate": "2018-05-01",
+      "aptNotes": "Esta cojo"
+    },
+    {
+      "petName": "Lazzie",
+      "petOwner": "Jose Merino",
+      "aptDate": "2018-05-01",
+      "aptNotes": "Tiene fiebre"
+    },
+    {
+      "petName": "Dino",
+      "petOwner": "Maria canales",
+      "aptDate": "2018-05-01",
+      "aptNotes": "Duerme mucho"
+    }
+  ]

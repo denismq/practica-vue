@@ -1,0 +1,35 @@
+body {
+  font-family: $font-main;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  background-color: #dad6d6;
+}
+
+a{
+  text-decoration: none;
+}
+
+a,
+button {
+  cursor: pointer;
+}
+
+input, button{
+  outline: none;
+  border: none;
+}
+
+ul{
+  list-style-type: none;
+}
+
+img{
+  max-width: 100%;
+  display: block;
+}
+
+textarea {
+  resize: none;
+  border: none;
+}

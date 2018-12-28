@@ -1,0 +1,40 @@
+/*
+  flex
+ */
+.services{
+  .headline{
+
+  }
+  &__list{
+    @media screen and (min-width: 768px){
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+  &__item{
+    text-align: center;
+    background-color: #46c5d6;
+    flex: 0 0 calc(33.33% - 1em);
+    &--middle{
+      /*
+         Por ejemplo: En el dom tenemos tres items y al colocar flex=2, se
+         volverian 4 items. Entonces calculamos:
+         968(ancho padre) / 4 = 242 y a este resultado lo multiplicamos por
+         el factor de crecimiento, que viene a ser 2 y este resultado seria el
+         ancho de la caja con la clase middle.
+      */
+      //flex: 2; /* => (factor de crecimiento)*/
+
+    }
+  }
+  &__title{
+    margin-bottom: 20px;
+  }
+  &__icon{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: gray;
+    margin: 0 auto;
+  }
+}

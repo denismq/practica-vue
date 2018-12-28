@@ -1,0 +1,24 @@
+.main-nav{
+  &__items{
+    display: flex;
+  }
+  &__item{
+    //flex: auto;
+  }
+  &__link{
+    color: $white;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 25px 15px;
+    display: block;
+    transition: all 0.4s;
+    &:hover{
+      color: #46c5d6;
+    }
+    &--social{
+      &:hover{
+        color: #ebb125;
+      }
+    }
+  }
+}
